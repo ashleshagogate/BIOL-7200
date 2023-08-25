@@ -1,0 +1,38 @@
+INFO  23:28:02,072 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  23:28:02,073 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.7-0-gcfedb67, Compiled 2016/12/12 11:21:18 
+INFO  23:28:02,074 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  23:28:02,074 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  23:28:02,074 HelpFormatter - [Sun Oct 03 23:28:02 EDT 2021] Executing on Mac OS X 10.16 x86_64 
+INFO  23:28:02,074 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_301-b09 
+INFO  23:28:02,077 HelpFormatter - Program Args: -T RealignerTargetCreator -R chr17.fa -I lane_sorted.bam -o lane.intervals --known resources-broad-hg38-v0-Mills_and_1000G_gold_standard.indels.hg38.vcf 
+INFO  23:28:02,285 HelpFormatter - Executing as ashleshagogate@Ashleshas-MacBook-Air.local on Mac OS X 10.16 x86_64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_301-b09. 
+INFO  23:28:02,286 HelpFormatter - Date/Time: 2021/10/03 23:28:02 
+INFO  23:28:02,287 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  23:28:02,288 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  23:28:02,313 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  23:28:02,378 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  23:28:02,382 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  23:28:02,397 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.01 
+INFO  23:28:02,792 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  23:28:02,959 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  23:28:02,959 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  23:28:02,960 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  23:28:02,960 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  23:28:32,989 ProgressMeter -  chr17:18865485   1.8857984E7    30.0 s       1.0 s       22.7%     2.2 m     102.0 s 
+INFO  23:29:03,011 ProgressMeter -  chr17:43566657   4.3565056E7    60.0 s       1.0 s       52.3%   114.0 s      54.0 s 
+INFO  23:29:33,030 ProgressMeter -  chr17:63748361   6.373376E7    90.0 s       1.0 s       76.6%   117.0 s      27.0 s 
+INFO  23:30:01,965 ProgressMeter -            done   8.3257441E7   119.0 s       1.0 s      100.0%   119.0 s       0.0 s 
+INFO  23:30:01,968 ProgressMeter - Total runtime 119.01 secs, 1.98 min, 0.03 hours 
+INFO  23:30:01,978 MicroScheduler - 123803 reads were filtered out during the traversal out of approximately 10466741 total reads (1.18%) 
+INFO  23:30:01,979 MicroScheduler -   -> 0 reads (0.00% of total) failing BadCigarFilter 
+INFO  23:30:01,979 MicroScheduler -   -> 0 reads (0.00% of total) failing BadMateFilter 
+INFO  23:30:01,980 MicroScheduler -   -> 0 reads (0.00% of total) failing DuplicateReadFilter 
+INFO  23:30:01,980 MicroScheduler -   -> 0 reads (0.00% of total) failing FailsVendorQualityCheckFilter 
+INFO  23:30:01,980 MicroScheduler -   -> 0 reads (0.00% of total) failing MalformedReadFilter 
+INFO  23:30:01,980 MicroScheduler -   -> 0 reads (0.00% of total) failing MappingQualityUnavailableFilter 
+INFO  23:30:01,980 MicroScheduler -   -> 123803 reads (1.18% of total) failing MappingQualityZeroFilter 
+INFO  23:30:01,980 MicroScheduler -   -> 0 reads (0.00% of total) failing NotPrimaryAlignmentFilter 
+INFO  23:30:01,980 MicroScheduler -   -> 0 reads (0.00% of total) failing Platform454Filter 
+INFO  23:30:01,980 MicroScheduler -   -> 0 reads (0.00% of total) failing UnmappedReadFilter 
+------------------------------------------------------------------------------------------
+Done. ------------------------------------------------------------------------------------------

@@ -1,0 +1,34 @@
+INFO  23:35:57,178 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  23:35:57,180 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.7-0-gcfedb67, Compiled 2016/12/12 11:21:18 
+INFO  23:35:57,180 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  23:35:57,180 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  23:35:57,181 HelpFormatter - [Sun Oct 03 23:35:57 EDT 2021] Executing on Mac OS X 10.16 x86_64 
+INFO  23:35:57,181 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_301-b09 
+INFO  23:35:57,184 HelpFormatter - Program Args: -T IndelRealigner -R chr17.fa -I lane_sorted.bam -targetIntervals lane.intervals -known resources-broad-hg38-v0-Mills_and_1000G_gold_standard.indels.hg38.vcf -o lane_realigned.bam 
+INFO  23:35:57,407 HelpFormatter - Executing as ashleshagogate@Ashleshas-MacBook-Air.local on Mac OS X 10.16 x86_64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_301-b09. 
+INFO  23:35:57,408 HelpFormatter - Date/Time: 2021/10/03 23:35:57 
+INFO  23:35:57,408 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  23:35:57,409 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  23:35:57,476 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  23:35:57,514 GenomeAnalysisEngine - Downsampling Settings: No downsampling 
+INFO  23:35:57,518 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  23:35:57,535 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.02 
+INFO  23:35:57,918 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  23:35:57,922 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  23:35:57,923 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  23:35:57,923 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  23:35:57,924 ProgressMeter -        Location |     reads | elapsed |     reads | completed | runtime |   runtime 
+INFO  23:35:58,002 ReadShardBalancer$1 - Loading BAM index data 
+INFO  23:35:58,003 ReadShardBalancer$1 - Done loading BAM index data 
+INFO  23:36:27,959 ProgressMeter -  chr17:11875991   1500015.0    30.0 s      20.0 s       14.3%     3.5 m       3.0 m 
+INFO  23:36:57,983 ProgressMeter -  chr17:30691382   3400034.0    60.0 s      17.0 s       36.9%     2.7 m     102.0 s 
+INFO  23:37:28,001 ProgressMeter -  chr17:44959479   5300054.0    90.0 s      16.0 s       54.0%     2.8 m      76.0 s 
+INFO  23:37:58,019 ProgressMeter -  chr17:59288377   7200076.0   120.0 s      16.0 s       71.2%     2.8 m      48.0 s 
+INFO  23:38:28,076 ProgressMeter -  chr17:73563395   9000098.0     2.5 m      16.0 s       88.4%     2.8 m      19.0 s 
+INFO  23:38:48,859 ProgressMeter -            done   1.0372833E7     2.8 m      16.0 s      100.0%     2.8 m       0.0 s 
+INFO  23:38:48,861 ProgressMeter - Total runtime 170.94 secs, 2.85 min, 0.05 hours 
+INFO  23:38:48,866 MicroScheduler - 0 reads were filtered out during the traversal out of approximately 10372833 total reads (0.00%) 
+INFO  23:38:48,866 MicroScheduler -   -> 0 reads (0.00% of total) failing BadCigarFilter 
+INFO  23:38:48,867 MicroScheduler -   -> 0 reads (0.00% of total) failing MalformedReadFilter 
+------------------------------------------------------------------------------------------
+Done. ------------------------------------------------------------------------------------------
